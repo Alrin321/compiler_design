@@ -17,7 +17,7 @@ printf("\n E->E*E\n E->a/b");
 printf("\n enter the input symbol:\t");
 gets(ip_sym);
 printf("\n\t stack implementation table");
-printf("\n stack \t\t input symbol\t\t action");
+printf("\n stack \t\t input symbol\t\t action"); //replace all strcmpi with strcmp
 printf("\n________\t\t____________\t\t____________\n");
 printf("\n $\t\t%s$\t\t\t--",ip_sym);
 strcpy(act,"shift");
